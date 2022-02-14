@@ -1,6 +1,6 @@
 # React 17 basic syntax / commonly used libraries reference
 
-Sometimes one doesn't remember what breaking changes the latest React and/or redux update caused. This is a reference for the latest Create React App 17.
+Sometimes one doesn't remember what breaking changes the latest React and/or redux update caused. This is a reference for the latest Create React App (React 17). Covers Hooks and common Redux examples.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
