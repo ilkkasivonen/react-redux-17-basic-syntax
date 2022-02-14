@@ -1,4 +1,4 @@
-# React 17 syntax / libraries reference
+# React 17 basic syntax / commonly used libraries reference
 
 
 
