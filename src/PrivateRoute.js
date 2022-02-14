@@ -4,7 +4,7 @@ import { UserContext } from "./Layout";
 import Nope from "./Nope";
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-    // Add your own authentication on the below line.
+    // This is not really security, but UX. UI is not where any form of security can be created.
     const user = useContext(UserContext);
 
     return user ? <Outlet /> : <Nope />;
