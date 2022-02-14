@@ -8,6 +8,7 @@ const logMiddleWare = (store) => (next) => (action) => {
 };
 
 const checkLoginMiddleware = (store) => (next) => (action) => {
+    // This is not really security, but UX. UI is not where any form of security can be created.
     if (action.type === "login/login" || store.getState().login.value) {
         next(action);
         return;
